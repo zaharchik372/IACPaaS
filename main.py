@@ -321,8 +321,8 @@ class CosmeticsSelectorApp(QWidget):
                 f"Все товары выбраны исключительно по Вашим параметрам и характеристках, а также целью ухода: {self.spisok_result_tovar[5].lower()}\n"
                 f"Отталкиваясь от всех параметров кожи, можно сделать следующий список рекомендованных продуктов для Вас:")
 
-            select_one_score = combo_box_1.currentText()
-            select_med_property = combo_box_2.currentText()
+            select_med = combo_box_1.currentText()
+            select_med_tool = combo_box_2.currentText()
             select_med_type = combo_box_5.currentText()
             global label_otvet
 
