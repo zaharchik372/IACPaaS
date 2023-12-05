@@ -321,11 +321,26 @@ class CosmeticsSelectorApp(QWidget):
                 f"Все товары выбраны исключительно по Вашим параметрам и характеристках, а также целью ухода: {self.spisok_result_tovar[5].lower()}\n"
                 f"Отталкиваясь от всех параметров кожи, можно сделать следующий список рекомендованных продуктов для Вас:")
 
-            select_ = combo_box_1.currentText()
-            select_med_tool = combo_box_2.currentText()
-            select_med_type = combo_box_5.currentText()
+            select_score_1 = combo_box_1.currentText()
+            select_tool_2 = combo_box_2.currentText()
+            select_type_3 = combo_box_3.currentText()
+            select_med_type_5 = combo_box_5.currentText()
             global label_otvet
 
+            if select_score_1 == 'Сухость кожи':
+                pass
+            elif select_score_1 == 'Ощущения после умывания':
+                pass
+            elif select_score_1 == 'Жирный блеск':
+                pass
+            elif select_score_1 == 'Поры':
+                pass
+            elif select_score_1 == 'Чувствительность':
+                pass
+            elif select_score_1 == 'Тон кожи':
+                pass
+            elif select_score_1 == 'Морщины':
+                pass
 
 
             label_dopol = QLabel(f"Эти продукты предоставляют всесторонний уход для вашей кожи, помогая сохранить её здоровье и красоту. \n"
